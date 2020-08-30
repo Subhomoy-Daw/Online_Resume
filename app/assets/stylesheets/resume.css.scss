@@ -41,8 +41,10 @@
 }
 
 .resume .resume_left .resume_profile img {
-  width: 100%;
+  width: 70%;
   height: 100%;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .resume .resume_left .resume_content {
@@ -251,6 +253,7 @@ body {
     background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         font-size: 14px;
 line-height: 22px;
+
 }
 
 .navbar .navbar-nav .nav-item .nav-link, .navabar .navabar-nav .nav-item .nav-link:visited{

@@ -17,16 +17,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+				  <%= link_to "Home",root_path , class:"nav-link"%>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
+				  <%= link_to "Resume",resume_path , class:"nav-link"%>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+				  <%= link_to "Projects",projects_path , class:"nav-link"%>
                 </li>
               </ul>
             </div>
           </nav>
     </header>
+     <%= javascript_pack_tag 'home_js' %>
 </body>
+
+<footer id="sticky-footer class="py-4 bg-dark text-white">
+	<div class= "container text-center">
+		<small> Copyright &copy; Subhomoy Daw</small>
+	</div>
+</footer>
