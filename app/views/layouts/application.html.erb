@@ -7,46 +7,50 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
-  <div id="particles-js">
-    <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-				  <%= link_to "Home",root_path , class:"nav-link"%>
-                </li>
-                <li class="nav-item">
-				  <%= link_to "Resume",resume_path , class:"nav-link"%>
-                </li>
-                <li class="nav-item">
-				  <%= link_to "Projects",projects_path , class:"nav-link"%>
-                </li>
-                                <li class="nav-item">
-				  <%= link_to "Skill Set",skill_set_path , class:"nav-link"%>
-                </li>
-                                <li class="nav-item">
-				  <%= link_to "Coding Profile",coding_profile_path , class:"nav-link"%>
-                </li>
-                                <li class="nav-item">
-				  <%= link_to "Education",education_path , class:"nav-link"%>
-                </li>
-                                <li class="nav-item">
-				  <%= link_to "Contact",contact_path , class:"nav-link"%>
-                </li>
-              </ul>
-            </div>
-          </nav>
-   </header>
-    <%= yield %>
-   </div>
-
-       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <div>
+        <div id="particles-js">
+              <header>
+                  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                          <%= link_to "Home",root_path , class:"nav-link"%>
+                          </li>
+                          <li class="nav-item">
+                          <%= link_to "Resume",resume_path , class:"nav-link"%>
+                          </li>
+                          <li class="nav-item">
+                          <%= link_to "Projects",projects_path , class:"nav-link"%>
+                          </li>
+                                          <li class="nav-item">
+                          <%= link_to "Skill Set",skill_set_path , class:"nav-link"%>
+                          </li>
+                                          <li class="nav-item">
+                          <%= link_to "Coding Profile",coding_profile_path , class:"nav-link"%>
+                          </li>
+                                          <li class="nav-item">
+                          <%= link_to "Education",education_path , class:"nav-link"%>
+                          </li>
+                                          <li class="nav-item">
+                          <%= link_to "Contact",contact_path , class:"nav-link"%>
+                          </li>
+                      </ul>
+                      </div>
+                  </nav>       
+          </header>
+        </div>
+      </div>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <script>
         particlesJS.load('particles-js', 'particles.json',
@@ -54,11 +58,14 @@
             console.log('particles.json loaded...')
         })
     </script>
-   
+
   </body>
-  <footer id="sticky-footer class="py-4 bg-dark text-black-50">
-	<div class= "container text-center">
-		<small> Copyright &copy; Subhomoy Daw</small>
-	</div>
-</footer>
+  <div class="space">
+      <footer id="sticky-footer class="py-4 bg-dark text-black-50">
+        <div class= "container text-center">
+          <small> Copyright &copy; Subhomoy Daw</small>
+        </div>
+    </footer>
+  </div>
+
 </html>
