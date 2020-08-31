@@ -5,4 +5,12 @@ class PagesController < ApplicationController
     end
     def projects
     end
+    def coding_profile
+    end
+    def skill_set
+    end
+    def education
+    end
+    def contact
+    end
 end
