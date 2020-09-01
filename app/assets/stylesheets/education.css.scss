@@ -4,18 +4,11 @@
     height: 600px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
   }
   .card
   {
- 
-      margin-bottom: 2%;
-  }
-
-  .border-color
-  {
-    border-style: solid;
-    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+    margin-bottom: 4%;
   }
   .card-body
   {
@@ -32,7 +25,16 @@
   {
     font-size: .95em;
   }
-  .space
-{
-    margin-top: 4%;
+
+.btext-edu{
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left:20%;
+}
+body{
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
