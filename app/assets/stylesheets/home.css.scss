@@ -10,3 +10,48 @@ body{
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+}
+
+.profile
+{
+    width : 250px;
+    height:250px;
+    margin-bottom: 2%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container-pro:hover .img {
+    opacity: 0.3;
+  }
+  
+  .container-pro:hover .middle {
+    opacity: 1;
+  }
+  .text-pro {
+    background-color: #1213129d;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
