@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card
+  {
+ 
+      margin-bottom: 2%;
+  }
+
+  .border-color
+  {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+  }
+  .card-body
+  {
+    text-align: left;
+    font-family: Tahoma, Geneva, sans-serif;
+   
+  }
+  .card-header
+  {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bolder;
+  }
+  .body-size
+  {
+    font-size: .95em;
+  }
+  .space
+{
+    margin-top: 4%;
+}
