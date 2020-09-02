@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+  }
+  .card
+  {
+    margin-bottom: 4%;
+  }
+  .card-body
+  {
+    text-align: left;
+    font-family: Tahoma, Geneva, sans-serif;
+   
+  }
+  .card-header
+  {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bolder;
+  }
+  .body-size
+  {
+    font-size: .95em;
+  }
+
+.btext-con{
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left:16%;
+}
+body{
+    background: #093028;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+.card-group .card .card-title {
+    color: #ffffff;
+  }
+
+  .card-group .card .icon-hr {
+    border-radius: 50%;
+    font-size: 40px;
+  }
