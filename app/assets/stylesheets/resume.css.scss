@@ -1,13 +1,16 @@
-
 .btext-res{
-  position: absolute;
+  position:absolute;
   text-align: center;
-  top: 20%;
-  left:0%;
+  top: 10%;
 }
 body{
-    background: #093028;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+  background: #237A57;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061700, #237A57);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061700ea, #237A57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+              
+}
+
+.inc
+{
+    height:55vh;
 }
