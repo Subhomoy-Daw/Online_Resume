@@ -1,6 +1,4 @@
 @import 'bootstrap/dist/css/bootstrap';
-
-@import 'bootstrap/dist/css/bootstrap';
 body{
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -36,22 +34,85 @@ img {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
   }
   
-  .container-pro:hover .img {
+.img :hover{
     opacity: 0.3;
   }
   
-  .container-pro:hover .middle {
+.middle:hover {
     opacity: 1;
   }
+  
   .text-pro {
     background-color: #1213129d;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  
+@media (min-width: 576px) {   
+  .container-fluid .row
+ {
+     padding: 2%;
+     margin-left: 0%;
+     margin-top:5%;
+ }
+}
+
+
+@media (min-width: 768px) {   
+ .container-fluid .row
+{
+    padding: 2%;
+    margin-left: 0%;
+    margin-top:5%;
+}
+}
+
+
+@media (min-width: 992px) {   
+ .container-fluid .row
+{
+    
+    margin-left: 2%;
+    margin-top:5%;
+}
+}
+
+
+@media (min-width: 1200px) {   
+ .container-fluid .row
+{
+    margin-left: 0%;
+    margin-top:5%;
+}
+}
+@media (min-width: 1900px) {   
+ .container-fluid .row
+{
+    margin-left: -0.5%;
+}
+}
+
+@media (min-width: 2500px) {   
+ .container-fluid .row
+{
+  margin-left: -0.5%;
+}
+}
+
+.style-me
+{
+  position: absolute;
+  top :0%;
+  left : 0%;
+  width: 100%;
+  height:100vh;
+}
+

@@ -24,3 +24,16 @@
     background: rgba(0, 0, 0, 0);  /* fallback for old browsers */
     align-items:center ;
 }
+.container-fluid .navbar .navbar-toggler {
+    color: rgba(238, 234, 30, 0.884);
+      border-top-color: rgb(196, 7, 54);
+      border-right-color: rgb(230, 255, 7);
+      border-bottom-color: rgb(7, 247, 255);
+      border-left-color: rgb(36, 255, 7);
+
+  }
+
+.button .navbar-toggle-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
