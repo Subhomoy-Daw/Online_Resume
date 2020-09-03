@@ -1,14 +1,7 @@
-.flex-container {
+.container-fluid {
     display: flex;
     flex-direction: column;
-    height: 600px;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;  
-  }
-  .card
-  {
-    margin-bottom: 4%;
   }
   .card-body
   {
@@ -25,24 +18,69 @@
   {
     font-size: .95em;
   }
+ .card .card-title {
+    color: #ffffff;
+  }
 
-.btext-con{
-  position: absolute;
-  text-align: center;
-  top: 20%;
-  left:26%;
+.card .icon-hr {
+    border-radius: 50%;
+    font-size: 40px;
+  }
+
+@media (min-width: 576px) {   
+     .container-fluid .row
+    {
+        padding: 2%;
+        margin-left: 0%;
+        margin-top:5%;
+    }
+ }
+
+ 
+@media (min-width: 768px) {   
+    .container-fluid .row
+   {
+       padding: 2%;
+       margin-left: 0%;
+       margin-top:5%;
+   }
 }
+
+
+@media (min-width: 992px) {   
+    .container-fluid .row
+   {
+       
+       margin-left: 2%;
+       margin-top:5%;
+   }
+}
+
+
+@media (min-width: 1200px) {   
+    .container-fluid .row
+   {
+       margin-left: 6%;
+       margin-top:5%;
+   }
+}
+@media (min-width: 1900px) {   
+    .container-fluid .row
+   {
+       margin-left: 10%;
+   }
+}
+
+@media (min-width: 2500px) {   
+    .container-fluid .row
+   {
+       margin-left: 14%;
+   }
+}
+
 body{
     background: #093028;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
-.card-group .card .card-title {
-    color: #ffffff;
-  }
-
-  .card-group .card .icon-hr {
-    border-radius: 50%;
-    font-size: 40px;
-  }

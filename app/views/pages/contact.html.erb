@@ -1,79 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+<head>
 		<meta charset="UTF-8">
 		<title>Home</title>
 		<%= stylesheet_link_tag"contact"%>   
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-	</head>
-
-	<body>
-			<div id="particles-js" >
-				<div class="btext-con">
-					<div class="flex-container">
-                        <ul>
-                            <div class="card-group">
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fab fa-hackerrank"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <h5><%=link_to "HackerRank","https://www.hackerrank.com/subhomoydaw_off1" ,{class: "card-title"}%></h5>
-                                    <p class="card-text">Check out my HackerRank account !</p>
-                                    </div>
-                                </div>
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fab fa-github"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <h5 class><%=link_to "Github","https://github.com/Subhomoy-Daw/",{class: "card-title"}%></h5>
-                                    <p class="card-text">Check out my github account !</p>
-                                    </div>
-                                </div>
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fab fa-linkedin"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <h5><%=link_to "LinkedIn","https://www.linkedin.com/in/subhomoy-daw-570a30156",{class: "card-title"}%></h5>
-                                    <p class="card-text">Check out my LinkedIn Profile!</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="card-group">
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <p class="card-title" style ="font-size:0.9em;">subhomoydaw.official@gmail.com</p>
-                                    </div>
-                                </div>
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <h5><%=link_to "Instagram","https://www.instagram.com/_subhomoy_/?hl=en",{class: "card-title"}%></h5>
-                                    </div>
-                                </div>
-                                <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
-                                    <div class="icon-hr">
-                                        <i class="fab fa-facebook"></i>
-                                    </div>
-                                    <div class="card-body text-center">
-                                    <h5><%=link_to "Facebook","https://www.facebook.com/basu.deb.399041",{class: "card-title"}%></h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </ul>
-					</div>
-				</div>
-			</div>
-	</body>
-</html>
+		<script src="https://kit.fontawesome.com/b99e675b6e.js"></script> 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fab fa-hackerrank"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                         <h5><%=link_to "HackerRank","https://www.hackerrank.com/subhomoydaw_off1" ,{class: "card-title"}%></h5>
+                        <p class="card-text">
+                            Check out my HackerRank profile !
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fab fa-github"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                         <h5><%=link_to "Github","https://github.com/Subhomoy-Daw/",{class: "card-title"}%></h5>
+                        <p class="card-text">
+                            Check out my github account !
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fab fa-linkedin"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                         <h5><%=link_to "LinkedIn","https://www.linkedin.com/in/subhomoy-daw-570a30156",{class: "card-title"}%></h5>
+                        <p class="card-text">
+                            Check out my LinkedIn Profile!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fas fa-envelope"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                            <p class="card-title" style ="font-size:0.9em;">subhomoydaw.official@gmail.com</p>                        <p class="card-text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fab fa-instagram"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                         <h5><%=link_to "Instagram","https://www.instagram.com/_subhomoy_/?hl=en",{class: "card-title"}%></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-transparent border-success"style="max-width: 18rem; max-height: 18rem;">
+                    <h5 class="card-header border-success text-center">
+                        <div class="icon-hr">
+                            <i class="fab fa-facebook"></i>
+                        </div>                    
+                    </h5>
+                    <div class="card-body text-center">
+                         <h5><%=link_to "Facebook","https://www.facebook.com/basu.deb.399041",{class: "card-title"}%></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
